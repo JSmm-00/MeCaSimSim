@@ -182,3 +182,14 @@ td { background: var(--surface); }
 }
 .job .name { overflow-wrap: anywhere; }
 @media (max-width: 480px) { .jav { width: 40px; height: 40px; border-radius: 10px; } .job { gap: 10px; } }
+
+.updates { margin: -12px 0 36px; }
+.updates h2 { margin: 0 0 10px; font-size: 16px; font-weight: 800; }
+.updates h2 span { margin-left: 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.updates ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+.updates a { display: flex; align-items: center; gap: 10px; padding: 10px 12px; text-decoration: none; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; height: 100%; }
+.updates a:hover { border-color: var(--accent); }
+.uav { flex: none; width: 36px; height: 36px; border-radius: 9px; background: var(--chip); }
+.ut { display: flex; flex-direction: column; min-width: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.ut b { font-size: 14px; color: var(--ink); }
+.upd { display: inline-block; margin-left: 6px; padding: 0 7px; border-radius: 999px; font-size: 11px; font-weight: 700; line-height: 1.7; vertical-align: 1px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
