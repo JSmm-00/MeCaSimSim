@@ -225,3 +225,11 @@ td { background: var(--surface); }
   cursor: zoom-out;
 }
 .lightbox img, .lightbox video { max-width: 92vw; max-height: 92vh; border-radius: 10px; box-shadow: 0 20px 60px rgba(0,0,0,.5); cursor: default; }
+
+/* 테스트월드 공지와 달라진 항목: 테섭 버전 문구 */
+.tw { margin: 10px 0 0; padding: 8px 12px; border-left: 3px solid var(--line); background: var(--chip); border-radius: 0 8px 8px 0; font-size: 13px; color: var(--muted); }
+.tw-l { display: inline-block; margin-right: 6px; font-weight: 700; color: var(--muted); }
+.tw ul { list-style: none; margin: 2px 0 0; padding: 0; }
+.tw li { position: relative; padding-left: 12px; }
+.tw li::before { content: ""; position: absolute; left: 0; top: .75em; width: 4px; height: 4px; border-radius: 50%; background: var(--muted); }
+.tw .old, .tw .new { font-weight: 600; font-variant-numeric: tabular-nums; }
