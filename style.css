@@ -44,6 +44,7 @@ a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-r
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 h1, h2, h3 { text-wrap: balance; }
 .eyebrow { margin: 0 0 6px; font-size: 13px; font-weight: 600; letter-spacing: .04em; color: var(--accent); }
+.patchnote { display: inline-block; margin: 0 0 10px; padding: 4px 12px; border-radius: 999px; background: var(--chip); color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: .02em; }
 
 /* ---------- home ---------- */
 .home-head { padding-block: 56px 28px; }
@@ -193,3 +194,34 @@ td { background: var(--surface); }
 .ut { display: flex; flex-direction: column; min-width: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
 .ut b { font-size: 14px; color: var(--ink); }
 .upd { display: inline-block; margin-left: 6px; padding: 0 7px; border-radius: 999px; font-size: 11px; font-weight: 700; line-height: 1.7; vertical-align: 1px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+/* 움짤·영상 클립 (gif / mp4 / webm) */
+.clip { margin: 16px auto 0; max-width: 100%; }
+.clip img, .clip video { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 8px; background: var(--chip); }
+.clip figcaption { margin-top: 6px; font-size: 13px; color: var(--muted); text-align: center; }
+
+/* 움짤 구역 */
+.clips { display: flex; flex-direction: column; gap: 20px; margin-top: 18px; }
+.clips:has(.clip) .clip-empty { display: none; }
+.clip-empty { margin: 10px 0 0; font-size: 14px; color: var(--muted); }
+
+/* 스킬 하나에 붙이는 변경 전/변경 후 움짤 쌍 */
+.clip-pair { margin: 14px 0; }
+.clip-pair-imgs { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 8px 8px; overflow: hidden; }
+.clip-pair-imgs .clip { margin: 0; padding: 10px; background: var(--surface); }
+.clip-pair-imgs .clip img, .clip-pair-imgs .clip video { border-radius: 6px; }
+.clip-pair-imgs .clip figcaption { margin-top: 6px; }
+@media (max-width: 600px) { .clip-pair-imgs { grid-template-columns: 1fr; } }
+
+/* 변경 전/후 숫자 색 구분 (스킬 설명 문장 안) */
+.desc .old { color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; text-decoration: line-through; text-decoration-thickness: 1.5px; }
+.desc .new { color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* 이미지/움짤 클릭 확대 (라이트박스) */
+.tip img, .clip-pair-imgs img, .clip-pair-imgs video, .clips img, .clips video { cursor: zoom-in; }
+.lightbox {
+  position: fixed; inset: 0; z-index: 999; padding: 24px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, .82);
+  cursor: zoom-out;
+}
+.lightbox img, .lightbox video { max-width: 92vw; max-height: 92vh; border-radius: 10px; box-shadow: 0 20px 60px rgba(0,0,0,.5); cursor: default; }
