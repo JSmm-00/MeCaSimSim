@@ -15,7 +15,7 @@
   }
 
   document.addEventListener('click', function (e) {
-    var img = e.target.closest('.tip img, .clip-pair-imgs img, .clips img');
+    var img = e.target.closest('.tip img, .clip-pair-imgs img, .clips img, .gif-slot img');
     if (img) { makeOverlay(img.currentSrc || img.src, false); return; }
     var vid = e.target.closest('.tip video, .clip-pair-imgs video, .clips video');
     if (vid) { makeOverlay(vid.currentSrc || vid.src, true); }

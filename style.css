@@ -134,6 +134,15 @@ h1, h2, h3 { text-wrap: balance; }
 .desc li.note::before { display: none; }
 .desc b { font-weight: 700; font-variant-numeric: tabular-nums; }
 
+.gif-tips { margin: 2px 0 14px; }
+.gif-slots { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 8px 8px; overflow: hidden; }
+.gif-slot { padding: 26px 12px; background: var(--chip); display: flex; align-items: center; justify-content: center; min-height: 120px; text-align: center; cursor: zoom-in; }
+.gif-slot.after { background: var(--accent-soft); }
+.gif-slot-hint { font-size: 13px; font-weight: 600; color: var(--muted); border: 1.5px dashed var(--muted); border-radius: 8px; padding: 10px 14px; cursor: default; }
+.gif-slot.after .gif-slot-hint { color: var(--accent); border-color: var(--accent); }
+.gif-slot img { display: block; max-width: 100%; max-height: 320px; width: auto; height: auto; border-radius: 4px; }
+@media (max-width: 520px) { .gif-slots { grid-template-columns: 1fr; } }
+
 .table { overflow-x: auto; margin: 12px 0 18px; }
 table { border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; min-width: 420px; }
 th, td { border: 1px solid var(--line); padding: 6px 14px; text-align: center; }
