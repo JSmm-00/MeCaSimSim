@@ -231,3 +231,8 @@ td { background: var(--surface); }
 .tw li { position: relative; padding-left: 12px; }
 .tw li::before { content: ""; position: absolute; left: 0; top: .75em; width: 4px; height: 4px; border-radius: 50%; background: var(--muted); }
 .tw .old, .tw .new { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* 공통 페이지 하위 목록 */
+.desc .sublist { margin: 4px 0 8px; }
+.desc .sublist li.sub { margin: 0; padding-top: 0; padding-bottom: 0; line-height: 1.6; }
+.desc .sublist li.sub + li.sub { margin-top: 2px; }
