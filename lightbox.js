@@ -21,3 +21,4 @@
     if (vid) { makeOverlay(vid.currentSrc || vid.src, true); }
   });
 })();
+
