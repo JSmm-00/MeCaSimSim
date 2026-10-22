@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>공통 변경 사항 · 10월 테스트월드 패치</title>
-<meta name="description" content="메이플스토리 2026년 10월 15일 테스트월드(1.2.207) 전 직업 공통 버그 수정 사항 정리">
+<title>공통 변경 사항 · 10월 패치 (테섭/본섭)</title>
+<meta name="description" content="메이플스토리 10월 15일 테스트월드, 10월 22일 본섭 전 직업 공통 변경·버그 수정 정리">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍁</text></svg>">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="style.css">
@@ -13,19 +13,25 @@
 <header class="job-head"><div class="wrap">
 <a class="back" href="index.html">← 전체 직업</a>
 <div class="title-row"><div>
-<p class="patchnote">10월 15일 테스트월드 패치 (1.2.207) · 반영 예정</p>
+<p class="patchnote">10월 22일 본섭 업데이트 (1.2.420) · 10월 15일 테스트월드</p>
 <h1>공통 변경 사항</h1>
-<p class="meta">전 직업 공통 변경·버그 수정</p>
+<p class="meta">본섭 24개 · 테섭 20개 항목</p>
 </div></div></div></header>
 <main class="wrap jobpage">
-<section class="sec" id="sec-1">
-<h2>공통 변경 · 버그 수정</h2>
-<p class="sec-note">2026년 10월 15일 오픈된 테스트월드(클라이언트 1.2.207)에서 공지된 전 직업에 적용되는 공통 변경 및 버그 수정 사항입니다. 수치 변경은 없습니다.</p>
+<div class="tabs" role="tablist" aria-label="패치 구분"><button type="button" role="tab" data-tab="live" id="t-live" aria-controls="p-live" aria-selected="true">오늘 본섭<span class="tmeta">10/22 · 24</span></button><button type="button" role="tab" data-tab="test" id="t-test" aria-controls="p-test" aria-selected="false">테섭<span class="tmeta">10/15 · 20</span></button></div>
+<section class="panel sec" id="p-live" role="tabpanel" aria-labelledby="t-live">
+<h2>공통 변경 · 버그 수정 · 오늘 본섭</h2>
+<p class="sec-note">2026년 10월 22일 본섭(클라이언트 1.2.420)에서 공지된 전 직업 공통 변경 및 버그 수정 사항입니다.</p>
+<article class="skill"><ul class="desc"><li>일부 온오프 스킬의 활성화 여부가 가끔 정상적으로 유지되지 않는 현상이 수정됩니다.</li><li>보스 대기맵, 샤레니안의 지하수로, 황금 토마토 펀치킹, 연무장 &lt;연마의 전당&gt; 입장 시 일부 온오프 스킬이 해제되는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">공통 – 파괴의 얄다바오트, 초월 : 결전의 의지</li><li class="sub">은월 – 그리운 마음</li><li class="sub">배틀메이지 – 데스 컨트랙트, 데스 컨트랙트2</li></ul></li><li>다른 캐릭터의 일부 스킬 이펙트에 가끔 자신의 스킬 이펙트 투명도 옵션이 적용되는 현상이 수정됩니다.</li><li>일부 스킬 아이콘이 버프 즐겨찾기에 가끔 중복으로 표시되는 현상이 수정됩니다.</li><li>일부 직업의 SP 자동배분 우선도가 변경됩니다. 변경되는 직업은 아래와 같습니다.<ul class="desc sublist"><li class="sub">소울마스터</li><li class="sub">카이저</li></ul></li><li>전문기술 사용 도중 점프가 가능한 현상이 수정됩니다.</li><li>에픽 던전 : 악몽선경의 2 스테이지에서 근두운 탑승 해제 시 일부 스킬이 복구되지 않는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">모험가 궁수 공통 - 가이디드 애로우</li><li class="sub">메르세데스 - 엘리멘탈 나이트, 엘리멘탈 나이트 VI</li><li class="sub">은월 - 그리운 마음</li><li class="sub">배틀메이지 - 데스, 데스 컨트랙트, 데스 컨트랙트2, 데스 컨트랙트3, 데스 VI</li></ul></li><li>에픽 던전 : 악몽선경 3, 5 스테이지의 입장 연출 이후 일부 스킬에 투명도 옵션이 최대로 적용되는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">바이퍼 – 서펜트 스톤, 라이트닝 폼, 서펜트 스크류, 서펜트 스톤 VI</li><li class="sub">소울마스터 – 코스믹 포지, 코스모스</li><li class="sub">플레임위자드 – 피닉스 드라이브, 피닉스 드라이브 VI</li><li class="sub">아란 – 아드레날린 부스트, 아드레날린 맥시멈, 블리자드 템페스트, 아드레날린 맥시멈 VI</li><li class="sub">제논 – 오버로드 모드</li><li class="sub">데몬 슬레이어 – 메타모포시스, 메타모포시스 VI</li><li class="sub">데몬 어벤져 – 데몬 프렌지, 프렌지 브레이크, 디멘션 소드</li><li class="sub">카이저 – 드래곤 블레이즈, 윌 오브 소드 VI</li><li class="sub">아델 – 스톰</li></ul></li><li>에픽 던전 : 앵글러 컴퍼니 스토리 모드, 아르고 호의 방문객 사도 스토리 모드에서 일부 스킬 효과가 적용되지 않게 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">모험가 마법사 공통 - 텔레포트 부스트</li><li class="sub">아크메이지(썬,콜) - 텔레포트-애드 레인지</li></ul></li><li>몬스터파크 핸즈에서 펫 스킬의 능력치 패시브 효과가 적용되지 않는 현상이 수정됩니다.</li><li>두 번까지 사용 가능한 점프 스킬을 스킬 키로 사용 시 가끔 사용 가능 횟수가 한 번에 소비되는 현상이 수정됩니다.</li><li>일부 스킬의 효과음이 여러 번 출력되는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">섀도어 - 멸귀참영진</li><li class="sub">듀얼블레이드 - 생자필멸</li><li class="sub">소울마스터 - 소울 이클립스</li><li class="sub">키네시스 - 워프</li><li class="sub">라라 - 용맥의 자취</li><li class="sub">호영 - 파초풍 : 실, 파초풍 : 실 VI</li></ul></li><li>일부 스킬 사용 시 다크 사이트가 해제되는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">나이트로드 - 쉐도우 블링크</li><li class="sub">섀도어 - 무스펠 하임</li><li class="sub">듀얼블레이드 - 토네이도 스핀</li><li class="sub">나이트워커 - 사일런트 러쉬</li><li class="sub">팬텀 - 팬텀 차지</li><li class="sub">카인 - 드레드 볼트</li><li class="sub">카데나 - 체인 스프린트</li><li class="sub">칼리 - 미라지 스텝</li><li class="sub">호영 - 무운쇄도</li></ul></li><li>은월이 아닌 일부 캐릭터에게 은월의 정령 결속 1식의 스탠스 확률 증가, 받는 피해량 감소 기능이 적용되는 현상이 수정됩니다.</li><li>일부 스킬의 스킬 보이스가 스킬 효과음 설정의 영향을 받는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">히노카미 카구라 원무일섬</li><li class="sub">번개의 호흡 일의 형, 벽력일섬 6연발</li><li class="sub">짐승의 호흡 오의 엄니, 마구 찢기</li></ul></li><li>다크 사이트 : 스킬 반복 입력 옵션의 영향을 받지 않게 변경됩니다.</li><li>메이플월드 여신의 축복 : V 매트릭스 스킬 코어의 스킬 설명이 변경됩니다.</li><li>여제 시그너스의 축복 : V 매트릭스 스킬 코어의 스킬 설명이 변경됩니다.</li><li>오라 웨폰 : 스킬 이펙트가 어색하게 출력되는 현상이 수정됩니다.</li><li>오버로드 마나<ul class="desc sublist"><li class="sub">연무장 &lt;연마의 전당&gt;에 입장 시 해제되는 현상이 수정됩니다.</li><li class="sub">연무장 &lt;연마의 전당&gt;에서 측정 준비 시 해제되는 현상이 수정됩니다.</li><li class="sub">연무장 &lt;연마의 전당&gt;에서 측정 시작 시 해제되는 현상이 수정됩니다.</li></ul></li><li>로디드 다이스 : 고정한 주사위의 눈이 재접속 시 유지되게 변경됩니다.</li><li>솔 헤카테 : 플레게톤 : 시전 시 가끔 소환수가 어색한 위치에 출력되는 현상이 수정됩니다.</li><li>아르카나 오버라이드 VI : 캐릭터 정보의 최종 데미지 설명에서 아르카나 오버라이드 VI의 최종 데미지 증가 효과가 헥사 스탯으로 분류되는 현상이 수정됩니다.</li><li>이볼브 VI : 다른 캐릭터의 칠흑의 궤적이 종료될 때 배경 음악, 효과음, 스킬 보이스가 출력되지 않는 현상이 수정됩니다.</li></ul></article>
+</section>
+<section class="panel sec" id="p-test" role="tabpanel" aria-labelledby="t-test" hidden>
+<h2>공통 변경 · 버그 수정 · 테섭</h2>
+<p class="sec-note">2026년 10월 15일 오픈된 테스트월드(클라이언트 1.2.207)에서 공지된 전 직업 공통 변경 및 버그 수정 사항입니다.</p>
 <article class="skill"><ul class="desc"><li>5차 온오프 스킬의 활성화 여부가 가끔 재접속 시 유지되지 않는 현상이 수정됩니다.</li><li>다른 캐릭터의 일부 스킬 이펙트에 가끔 자신의 스킬 이펙트 투명도 옵션이 적용되는 현상이 수정됩니다.</li><li>일부 스킬 아이콘이 버프 즐겨찾기에 가끔 중복으로 표시되는 현상이 수정됩니다.</li><li>일부 직업의 SP 자동배분 우선도가 변경됩니다. 변경되는 직업은 아래와 같습니다.<ul class="desc sublist"><li class="sub">소울마스터</li><li class="sub">카이저</li></ul></li><li>전문기술 사용 도중 점프가 가능한 현상이 수정됩니다.</li><li>에픽 던전 : 악몽선경의 2 스테이지에서 근두운 탑승 해제 시 일부 스킬이 복구되지 않는 현상이 수정됩니다. 수정되는 스킬은 다음과 같습니다.<ul class="desc sublist"><li class="sub">모험가 궁수 공통 - 가이디드 애로우</li><li class="sub">메르세데스 - 엘리멘탈 나이트, 엘리멘탈 나이트 VI</li><li class="sub">은월 - 그리운 마음</li><li class="sub">배틀메이지 - 데스, 데스 컨트랙트, 데스 컨트랙트2, 데스 컨트랙트3, 데스 VI</li></ul></li><li>에픽 던전 : 앵글러 컴퍼니 스토리 모드, 아르고 호의 방문객 사도 스토리 모드에서 일부 스킬 효과가 적용되지 않게 수정됩니다. 수정되는 스킬은 다음과 같습니다.<ul class="desc sublist"><li class="sub">모험가 마법사 공통 - 텔레포트 부스트</li><li class="sub">아크메이지(썬,콜) - 텔레포트-애드 레인지</li></ul></li><li>두 번까지 사용 가능한 점프 스킬을 스킬 키로 사용 시 가끔 사용 가능 횟수가 한 번에 소비되는 현상이 수정됩니다.</li><li>일부 스킬의 효과음이 여러 번 출력되는 현상이 수정됩니다. 수정되는 스킬은 다음과 같습니다.<ul class="desc sublist"><li class="sub">섀도어 - 멸귀참영진</li><li class="sub">듀얼블레이드 - 생자필멸</li><li class="sub">소울마스터 - 소울 이클립스</li><li class="sub">키네시스 - 워프</li><li class="sub">라라 - 용맥의 자취</li><li class="sub">호영 - 파초풍 : 실, 파초풍 : 실 VI</li></ul></li><li>일부 스킬 사용 시 다크 사이트가 해제되는 현상이 수정됩니다. 수정되는 스킬은 다음과 같습니다.<ul class="desc sublist"><li class="sub">나이트로드 - 쉐도우 블링크</li><li class="sub">섀도어 - 무스펠 하임</li><li class="sub">듀얼블레이드 - 토네이도 스핀</li><li class="sub">나이트워커 - 사일런트 러쉬</li><li class="sub">팬텀 - 팬텀 차지</li><li class="sub">카인 - 드레드 볼트</li><li class="sub">카데나 - 체인 스프린트</li><li class="sub">칼리 - 미라지 스텝</li><li class="sub">호영 - 무운쇄도</li></ul></li><li>은월이 아닌 일부 캐릭터에게 은월의 정령 결속 1식의 스탠스 확률 증가, 받는 피해량 감소 기능이 적용되는 현상이 수정됩니다.</li><li>일부 스킬의 스킬 보이스가 스킬 효과음 설정의 영향을 받는 현상이 수정됩니다. 수정되는 스킬은 다음과 같습니다.<ul class="desc sublist"><li class="sub">히노카미 카구라 원무일섬</li><li class="sub">번개의 호흡 일의 형, 벽력일섬 6연발</li><li class="sub">짐승의 호흡 오의 엄니, 마구 찢기</li></ul></li><li>메이플월드 여신의 축복<ul class="desc sublist"><li class="sub">V 매트릭스 스킬 코어의 스킬 설명이 변경됩니다.</li></ul></li><li>여제 시그너스의 축복<ul class="desc sublist"><li class="sub">V 매트릭스 스킬 코어의 스킬 설명이 변경됩니다.</li></ul></li><li>오라 웨폰<ul class="desc sublist"><li class="sub">스킬 이펙트가 어색하게 출력되는 현상이 수정됩니다.</li></ul></li><li>오버로드 마나<ul class="desc sublist"><li class="sub">연무장 &lt;연마의 전당&gt;에 입장 시 해제되는 현상이 수정됩니다.</li><li class="sub">연무장 &lt;연마의 전당&gt;에서 측정 준비 시 해제되는 현상이 수정됩니다.</li><li class="sub">연무장 &lt;연마의 전당&gt;에서 측정 시작 시 해제되는 현상이 수정됩니다.</li></ul></li><li>로디드 다이스<ul class="desc sublist"><li class="sub">고정한 주사위의 눈이 재접속 시 유지되게 변경됩니다.</li></ul></li><li>솔 헤카테 : 플레게톤<ul class="desc sublist"><li class="sub">시전 시 가끔 소환수가 어색한 위치에 출력되는 현상이 수정됩니다.</li></ul></li><li>아르카나 오버라이드 VI<ul class="desc sublist"><li class="sub">캐릭터 정보의 최종 데미지 설명에서 아르카나 오버라이드 VI의 최종 데미지 증가 효과가 헥사 스탯으로 분류되는 현상이 수정됩니다.</li></ul></li><li>이볼브 VI<ul class="desc sublist"><li class="sub">다른 캐릭터의 칠흑의 궤적이 종료될 때 배경 음악, 효과음, 스킬 보이스가 출력되지 않는 현상이 수정됩니다.</li></ul></li></ul></article>
 </section>
 </main>
 <footer class="foot"><div class="wrap">
-<p>출처: <a href="https://maplestory.nexon.com/testworld/news/all/202" target="_blank" rel="noopener">테스트월드 클라이언트 1.2.207 릴리즈 (스킬 수정 사항, 2026년 10월 15일)</a> · 아직 테스트월드 전용이며, 10월 22일 정식 업데이트 시 수치가 달라질 수 있습니다.</p>
+<p>출처: <a href="https://maplestory.nexon.com/news/update/815" target="_blank" rel="noopener">클라이언트 1.2.420 업데이트 안내 (2026년 10월 22일 본섭)</a> · <a href="https://maplestory.nexon.com/testworld/news/all/202" target="_blank" rel="noopener">테스트월드 클라이언트 1.2.207 릴리즈 (2026년 10월 15일)</a></p>
 </div></footer>
 <script id="imgdata" type="application/json">[]</script>
 <script>
@@ -34,6 +40,18 @@
   document.querySelectorAll('img[data-img]').forEach(function (el) {
     el.src = 'data:image/webp;base64,' + d[+el.dataset.img];
   });
+  var tabs = document.querySelectorAll('.tabs [role=tab]');
+  if (!tabs.length) return;
+  function show(which, push) {
+    tabs.forEach(function (t) {
+      var on = t.dataset.tab === which;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+    if (push) { try { history.replaceState(null, '', '#' + which); } catch (e) {} }
+  }
+  tabs.forEach(function (t) { t.addEventListener('click', function () { show(t.dataset.tab, true); }); });
+  show(location.hash === '#test' ? 'test' : 'live', false);
 })();
 </script>
 <script src="lightbox.js" defer></script>
