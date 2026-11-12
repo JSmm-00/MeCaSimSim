@@ -244,3 +244,19 @@ h1, h2, h3 { color: var(--ink); text-wrap: balance; letter-spacing: -.02em; }
 }
 @media (max-width: 420px) { .tabs { width: 100%; } .tabs [role=tab] { flex: 1; justify-content: center; padding-inline: 10px; } }
 @media (prefers-reduced-motion: reduce) { .side, .job, .common { transition: none; } }
+
+/* 오류 수정 · 기타 */
+.side-bug { margin-top: 6px; }
+.common.bugcard { margin-top: 12px; }
+.bug-link { margin: 28px 0 0; font-size: 14px; }
+.bug-link a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.bug-link a:hover { text-decoration: underline; }
+.bugpage .sec-note { margin-bottom: 18px; }
+.bugnav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 8px; }
+.bugnav a { padding: 7px 14px; border-radius: 999px; background: var(--surface); color: var(--ink2); text-decoration: none; font-size: 14px; font-weight: 500; }
+.bugnav a:hover { background: var(--accent-soft); color: var(--accent); }
+.bugjob { margin-top: 28px; scroll-margin-top: 20px; }
+.bugjob h2 { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; font-size: 20px; color: var(--ink); }
+.bugjob h2 em { font-style: normal; font-size: 14px; font-weight: 700; color: var(--accent); }
+.bugjob .bav { width: 32px; height: 32px; border-radius: 10px; object-fit: cover; }
+.desc .bt { font-weight: 600; color: var(--ink); }

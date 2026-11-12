@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오류 수정 · 기타 · 11월 테섭 패치</title>
+<meta name="description" content="메이플스토리 11월 12일 테스트월드 이펙트·오류 수정 등 수치가 바뀌지 않는 변경 정리">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍁</text></svg>">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+<aside class="side" id="side" aria-label="직업 목록">
+<div class="side-top"><a class="side-title" href="index.html">11월 테섭 패치</a><p class="side-sub">테스트월드 11월 12일 · 1.2.208</p></div>
+<a class="side-common" href="common.html"><span>공통 변경 사항</span><span class="sb">3</span></a>
+<a class="side-common side-bug" href="bugfix.html" aria-current="page"><span>오류 수정 · 기타</span><span class="sb">130</span></a>
+<nav class="side-group"><h2>변경 있는 직업 <em>7</em></h2><ul><li><a class="si" href="bowmaster.html" title="변경 5개"><img class="sav" data-av="bowmaster" width="32" height="32" alt=""><span class="sn">보우마스터</span><span class="sb">5</span></a></li><li><a class="si" href="windbreaker.html" title="변경 1개"><img class="sav" data-av="windbreaker" width="32" height="32" alt=""><span class="sn">윈드브레이커</span><span class="sb">1</span></a></li><li><a class="si" href="nightwalker.html" title="변경 1개"><img class="sav" data-av="nightwalker" width="32" height="32" alt=""><span class="sn">나이트워커</span><span class="sb">1</span></a></li><li><a class="si" href="mercedes.html" title="변경 2개"><img class="sav" data-av="mercedes" width="32" height="32" alt=""><span class="sn">메르세데스</span><span class="sb">2</span></a></li><li><a class="si" href="xenon.html" title="변경 1개"><img class="sav" data-av="xenon" width="32" height="32" alt=""><span class="sn">제논</span><span class="sb">1</span></a></li><li><a class="si" href="cadena.html" title="변경 2개"><img class="sav" data-av="cadena" width="32" height="32" alt=""><span class="sn">카데나</span><span class="sb">2</span></a></li><li><a class="si" href="zero.html" title="변경 1개"><img class="sav" data-av="zero" width="32" height="32" alt=""><span class="sn">제로</span><span class="sb">1</span></a></li></ul></nav>
+<nav class="side-group"><h2>수치 변경 없는 직업 <em>41</em></h2><ul><li><a class="si none" href="hero.html" title="수치 변경 없음"><img class="sav" data-av="hero" width="32" height="32" alt=""><span class="sn">히어로</span><span class="sb">0</span></a></li><li><a class="si none" href="paladin.html" title="수치 변경 없음"><img class="sav" data-av="paladin" width="32" height="32" alt=""><span class="sn">팔라딘</span><span class="sb">0</span></a></li><li><a class="si none" href="darkknight.html" title="수치 변경 없음"><img class="sav" data-av="darkknight" width="32" height="32" alt=""><span class="sn">다크나이트</span><span class="sb">0</span></a></li><li><a class="si none" href="archmage-fp.html" title="수치 변경 없음"><img class="sav" data-av="archmage-fp" width="32" height="32" alt=""><span class="sn">아크메이지(불,독)</span><span class="sb">0</span></a></li><li><a class="si none" href="archmage-il.html" title="수치 변경 없음"><img class="sav" data-av="archmage-il" width="32" height="32" alt=""><span class="sn">아크메이지(썬,콜)</span><span class="sb">0</span></a></li><li><a class="si none" href="bishop.html" title="수치 변경 없음"><img class="sav" data-av="bishop" width="32" height="32" alt=""><span class="sn">비숍</span><span class="sb">0</span></a></li><li><a class="si none" href="marksman.html" title="수치 변경 없음"><img class="sav" data-av="marksman" width="32" height="32" alt=""><span class="sn">신궁</span><span class="sb">0</span></a></li><li><a class="si none" href="pathfinder.html" title="수치 변경 없음"><img class="sav" data-av="pathfinder" width="32" height="32" alt=""><span class="sn">패스파인더</span><span class="sb">0</span></a></li><li><a class="si none" href="nightlord.html" title="수치 변경 없음"><img class="sav" data-av="nightlord" width="32" height="32" alt=""><span class="sn">나이트로드</span><span class="sb">0</span></a></li><li><a class="si none" href="shadower.html" title="수치 변경 없음"><img class="sav" data-av="shadower" width="32" height="32" alt=""><span class="sn">섀도어</span><span class="sb">0</span></a></li><li><a class="si none" href="dualblade.html" title="수치 변경 없음"><img class="sav" data-av="dualblade" width="32" height="32" alt=""><span class="sn">듀얼블레이드</span><span class="sb">0</span></a></li><li><a class="si none" href="viper.html" title="수치 변경 없음"><img class="sav" data-av="viper" width="32" height="32" alt=""><span class="sn">바이퍼</span><span class="sb">0</span></a></li><li><a class="si none" href="captain.html" title="수치 변경 없음"><img class="sav" data-av="captain" width="32" height="32" alt=""><span class="sn">캡틴</span><span class="sb">0</span></a></li><li><a class="si none" href="cannoneer.html" title="수치 변경 없음"><img class="sav" data-av="cannoneer" width="32" height="32" alt=""><span class="sn">캐논슈터</span><span class="sb">0</span></a></li><li><a class="si none" href="mihile.html" title="수치 변경 없음"><img class="sav" data-av="mihile" width="32" height="32" alt=""><span class="sn">미하일</span><span class="sb">0</span></a></li><li><a class="si none" href="soulmaster.html" title="수치 변경 없음"><img class="sav" data-av="soulmaster" width="32" height="32" alt=""><span class="sn">소울마스터</span><span class="sb">0</span></a></li><li><a class="si none" href="flamewizard.html" title="수치 변경 없음"><img class="sav" data-av="flamewizard" width="32" height="32" alt=""><span class="sn">플레임위자드</span><span class="sb">0</span></a></li><li><a class="si none" href="striker.html" title="수치 변경 없음"><img class="sav" data-av="striker" width="32" height="32" alt=""><span class="sn">스트라이커</span><span class="sb">0</span></a></li><li><a class="si none" href="aran.html" title="수치 변경 없음"><img class="sav" data-av="aran" width="32" height="32" alt=""><span class="sn">아란</span><span class="sb">0</span></a></li><li><a class="si none" href="evan.html" title="수치 변경 없음"><img class="sav" data-av="evan" width="32" height="32" alt=""><span class="sn">에반</span><span class="sb">0</span></a></li><li><a class="si none" href="luminous.html" title="수치 변경 없음"><img class="sav" data-av="luminous" width="32" height="32" alt=""><span class="sn">루미너스</span><span class="sb">0</span></a></li><li><a class="si none" href="phantom.html" title="수치 변경 없음"><img class="sav" data-av="phantom" width="32" height="32" alt=""><span class="sn">팬텀</span><span class="sb">0</span></a></li><li><a class="si none" href="eunwol.html" title="수치 변경 없음"><img class="sav" data-av="eunwol" width="32" height="32" alt=""><span class="sn">은월</span><span class="sb">0</span></a></li><li><a class="si none" href="blaster.html" title="수치 변경 없음"><img class="sav" data-av="blaster" width="32" height="32" alt=""><span class="sn">블래스터</span><span class="sb">0</span></a></li><li><a class="si none" href="battlemage.html" title="수치 변경 없음"><img class="sav" data-av="battlemage" width="32" height="32" alt=""><span class="sn">배틀메이지</span><span class="sb">0</span></a></li><li><a class="si none" href="wildhunter.html" title="수치 변경 없음"><img class="sav" data-av="wildhunter" width="32" height="32" alt=""><span class="sn">와일드헌터</span><span class="sb">0</span></a></li><li><a class="si none" href="mechanic.html" title="수치 변경 없음"><img class="sav" data-av="mechanic" width="32" height="32" alt=""><span class="sn">메카닉</span><span class="sb">0</span></a></li><li><a class="si none" href="demonslayer.html" title="수치 변경 없음"><img class="sav" data-av="demonslayer" width="32" height="32" alt=""><span class="sn">데몬 슬레이어</span><span class="sb">0</span></a></li><li><a class="si none" href="demonavenger.html" title="수치 변경 없음"><img class="sav" data-av="demonavenger" width="32" height="32" alt=""><span class="sn">데몬 어벤져</span><span class="sb">0</span></a></li><li><a class="si none" href="kaiser.html" title="수치 변경 없음"><img class="sav" data-av="kaiser" width="32" height="32" alt=""><span class="sn">카이저</span><span class="sb">0</span></a></li><li><a class="si none" href="kain.html" title="수치 변경 없음"><img class="sav" data-av="kain" width="32" height="32" alt=""><span class="sn">카인</span><span class="sb">0</span></a></li><li><a class="si none" href="angelicbuster.html" title="수치 변경 없음"><img class="sav" data-av="angelicbuster" width="32" height="32" alt=""><span class="sn">엔젤릭버스터</span><span class="sb">0</span></a></li><li><a class="si none" href="kinesis.html" title="수치 변경 없음"><img class="sav" data-av="kinesis" width="32" height="32" alt=""><span class="sn">키네시스</span><span class="sb">0</span></a></li><li><a class="si none" href="adele.html" title="수치 변경 없음"><img class="sav" data-av="adele" width="32" height="32" alt=""><span class="sn">아델</span><span class="sb">0</span></a></li><li><a class="si none" href="illium.html" title="수치 변경 없음"><img class="sav" data-av="illium" width="32" height="32" alt=""><span class="sn">일리움</span><span class="sb">0</span></a></li><li><a class="si none" href="khali.html" title="수치 변경 없음"><img class="sav" data-av="khali" width="32" height="32" alt=""><span class="sn">칼리</span><span class="sb">0</span></a></li><li><a class="si none" href="ark.html" title="수치 변경 없음"><img class="sav" data-av="ark" width="32" height="32" alt=""><span class="sn">아크</span><span class="sb">0</span></a></li><li><a class="si none" href="ren.html" title="수치 변경 없음"><img class="sav" data-av="ren" width="32" height="32" alt=""><span class="sn">렌</span><span class="sb">0</span></a></li><li><a class="si none" href="lara.html" title="수치 변경 없음"><img class="sav" data-av="lara" width="32" height="32" alt=""><span class="sn">라라</span><span class="sb">0</span></a></li><li><a class="si none" href="hoyoung.html" title="수치 변경 없음"><img class="sav" data-av="hoyoung" width="32" height="32" alt=""><span class="sn">호영</span><span class="sb">0</span></a></li><li><a class="si none" href="lethe.html" title="수치 변경 없음"><img class="sav" data-av="lethe" width="32" height="32" alt=""><span class="sn">레테</span><span class="sb">0</span></a></li></ul></nav>
+<p class="side-note">수치·성능이 바뀌는 항목만 직업별로 보여줘요. 이펙트·오류 수정은 '오류 수정 · 기타'에 따로 모았어요.</p>
+</aside>
+<button type="button" class="side-toggle" id="side-toggle" aria-controls="side" aria-expanded="false"><span aria-hidden="true">☰</span> 직업 목록</button>
+<div class="side-scrim" id="side-scrim"></div>
+<div class="content">
+<header class="job-head"><div class="wrap">
+<a class="back" href="index.html">← 전체 직업</a>
+<div class="title-row"><div>
+<p class="patchnote">11월 12일 테스트월드 패치 (1.2.208)</p>
+<h1>오류 수정 · 기타</h1>
+<p class="meta">130건 · 수치가 바뀌지 않는 이펙트·버그 수정 등</p>
+</div></div></div></header>
+<main class="wrap jobpage bugpage">
+<p class="sec-note">이펙트 수정, 버그 수정, 사용 편의 변경처럼 스킬의 수치(데미지 등)가 바뀌지 않는 내용입니다. 수치가 바뀌는 항목은 각 직업 페이지에 있어요.</p>
+<nav class="bugnav" aria-label="직업 바로가기">
+<a href="#job-common">공통</a>
+<a href="#job-hero">히어로</a>
+<a href="#job-paladin">팔라딘</a>
+<a href="#job-darkknight">다크나이트</a>
+<a href="#job-archmage-fp">아크메이지(불,독)</a>
+<a href="#job-archmage-il">아크메이지(썬,콜)</a>
+<a href="#job-bishop">비숍</a>
+<a href="#job-marksman">신궁</a>
+<a href="#job-nightlord">나이트로드</a>
+<a href="#job-shadower">섀도어</a>
+<a href="#job-dualblade">듀얼블레이드</a>
+<a href="#job-viper">바이퍼</a>
+<a href="#job-captain">캡틴</a>
+<a href="#job-cannoneer">캐논슈터</a>
+<a href="#job-soulmaster">소울마스터</a>
+<a href="#job-flamewizard">플레임위자드</a>
+<a href="#job-windbreaker">윈드브레이커</a>
+<a href="#job-nightwalker">나이트워커</a>
+<a href="#job-aran">아란</a>
+<a href="#job-evan">에반</a>
+<a href="#job-luminous">루미너스</a>
+<a href="#job-mercedes">메르세데스</a>
+<a href="#job-phantom">팬텀</a>
+<a href="#job-eunwol">은월</a>
+<a href="#job-blaster">블래스터</a>
+<a href="#job-battlemage">배틀메이지</a>
+<a href="#job-wildhunter">와일드헌터</a>
+<a href="#job-xenon">제논</a>
+<a href="#job-mechanic">메카닉</a>
+<a href="#job-kaiser">카이저</a>
+<a href="#job-cadena">카데나</a>
+<a href="#job-angelicbuster">엔젤릭버스터</a>
+<a href="#job-zero">제로</a>
+<a href="#job-adele">아델</a>
+<a href="#job-illium">일리움</a>
+<a href="#job-khali">칼리</a>
+<a href="#job-ark">아크</a>
+<a href="#job-ren">렌</a>
+<a href="#job-hoyoung">호영</a>
+<a href="#job-lethe">레테</a>
+</nav>
+<section class="bugjob" id="job-common">
+<h2>공통<em>17</em></h2>
+<article class="skill"><ul class="desc"><li>무릉도장 입장 시 일부 온오프 스킬이 해제되지 않게 변경됩니다.</li><li>일부 스킬의 타격 이펙트 출력 순서가 변경됩니다.</li><li>일부 온오프 스킬의 활성화 여부가 재접속 또는 맵 이동 시 가끔 정상적으로 유지되지 않는 현상이 수정됩니다.</li><li>라이딩 탑승 또는 의자 사용으로 해제된 일부 온오프 스킬이 라이딩 탑승 해제 또는 의자 사용 종료 시 다시 활성화되게 변경됩니다.</li><li>버프 즐겨찾기에 등록한 일부 스킬의 버프 아이콘이 가끔 어색하게 출력되는 현상이 수정됩니다.</li><li>기간이 만료된 특수 코어 연장 시 스킬 UI에 특수 코어 스킬이 바로 출력되지 않는 현상이 수정됩니다.</li><li>이동속도가 최대치보다 높게 고정되는 맵에서 더블 점프 시 가끔 접속이 종료되는 현상이 수정됩니다.</li><li>일부 직업이 아래 점프와 동시에 위 방향으로 이동하는 스킬 사용 시 가끔 접속이 종료되는 현상이 수정됩니다.</li><li>일부 스킬로 이동 시 혼란 상태 이상이 적용되지 않는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">라라 - 용맥의 자취</li><li class="sub">키네시스 - 워프</li></ul></li><li>일부 스킬이 가끔 크기가 큰 적을 타격하지 못하는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">나이트로드 - 마크 오브 어쌔신, 마크 오브 나이트로드, 마크 오브 어쌔신 VI</li><li class="sub">섀도어 - 메소 익스플로젼, 메소 익스플로젼 VI</li><li class="sub">플레임위자드 - 플레임 디스차지의 여우불</li><li class="sub">나이트워커 - 쉐도우 배트, 쉐도우 배트 VI</li><li class="sub">팬텀 - 블랙잭</li><li class="sub">데몬 어벤져 - 실드 체이싱, 실드 체이싱 VI</li><li class="sub">엔젤릭버스터 - 소울 시커, 소울 시커 VI, 그랜드 피날레의 응원 풍선</li></ul></li><li>보스 전투 퇴장 후 일부 스킬을 가끔 연속적으로 사용할 수 있는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">팔라딘 - 디바인 컨버전스</li><li class="sub">보우마스터 - 포인트 제로</li><li class="sub">듀얼블레이드 - 야마즈 디크리</li><li class="sub">소울마스터 - 토탈리티, 셀레스티얼 클리브</li><li class="sub">스트라이커 - 해황폭쇄</li><li class="sub">카인 - [발현/처형] 맬리셔스 플리커</li><li class="sub">카데나 - 브루탈 래비지</li><li class="sub">엔젤릭버스터 - 제뉴인 앙코르</li><li class="sub">렌 - 창룡파천검 : 일매낙화 천비인적</li></ul></li><li>사망한 상태에서 보스 전투 실패 시 일부 스킬이 유지되는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">모험가 궁수 공통 - 이볼브</li><li class="sub">데몬 공통 - 콜 마스테마</li><li class="sub">히어로 - 소드 오브 버닝 소울</li><li class="sub">보우마스터 - 퀴버 플로우, 이볼브 VI</li><li class="sub">신궁 - 볼트 플로우, 이볼브 VI</li><li class="sub">패스파인더 - 이볼브 VI</li><li class="sub">캡틴 - 서먼 크루, 서먼 크루 VI, 드레드노트</li><li class="sub">캐논슈터 - 스페셜 몽키 에스코트</li><li class="sub">플레임위자드 - 샐리맨더 미스칩</li><li class="sub">윈드브레이커 - 아네모이, 미스트랄 스프링</li><li class="sub">나이트워커 - 쉐도우 서번트, 쉐도우 일루전, 사일런스</li><li class="sub">메르세데스 - 엘리멘탈 나이트, 엘리멘탈 고스트, 엘리멘탈 나이트 VI, 언페이딩 글로리</li><li class="sub">메카닉 - 멀티플 옵션 : M-FL, 메탈아머 전탄발사, 메카 캐리어</li><li class="sub">데몬 슬레이어 - 오르트로스, 콜 마스테마 VI</li><li class="sub">데몬 어벤져 - 디멘션 소드, 콜 마스테마 VI, 레퀴엠</li><li class="sub">카이저 - 가디언 오브 노바</li><li class="sub">제로 - 트랜센던트, 트랜센던트 VI</li><li class="sub">키네시스 - 이계의 잔상, 이계의 잔상 VI</li><li class="sub">일리움 - 데우스, 데우스 VI, 언리미티드 크리스탈</li><li class="sub">렌 - 매화검 절기 : 만리향</li><li class="sub">라라 - 분출 : 너울이는 강, 분출 : 돌개바람, 분출 : 너울이는 강 VI, 분출 : 돌개바람 VI</li><li class="sub">호영 - 추적 귀화부, 추적 귀화부 VI, 선기 : 강림 괴력난신</li></ul></li><li>일부 이동 스킬을 사용할 수 없는 맵에서 사용 시 시스템 메시지가 반복적으로 출력되는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">공통 - 로프 커넥트, 블링크</li><li class="sub">모험가 전사 공통 - 워리어 리프</li><li class="sub">모험가 마법사 공통 - 마나 웨이브</li><li class="sub">데몬 공통 - 데몬 점프</li><li class="sub">히어로 - 플래시 슬래시</li><li class="sub">보우마스터 - 퀴버 플로우</li><li class="sub">신궁 - 볼트 플로우</li><li class="sub">섀도어 - 쉐도우 어썰트</li><li class="sub">듀얼블레이드 - 플래시 점프</li><li class="sub">캡틴 - 윙즈</li><li class="sub">캐논슈터 - 캐논 점프</li><li class="sub">미하일 - 소울 점프</li><li class="sub">소울마스터 - 소울 리프</li><li class="sub">플레임위자드 - 파이어워크</li><li class="sub">윈드브레이커 - 거스트 쉬프트</li><li class="sub">나이트워커 - 쉐도우 점프</li><li class="sub">스트라이커 - 엘리멘탈 쉬프트</li><li class="sub">아란 - 파이널 토스</li><li class="sub">메르세데스 - 롤링 문썰트, 스피릿 이스케이프</li><li class="sub">팬텀 - 팬텀 슈라우드, 리프트 브레이크</li><li class="sub">루미너스 - 라이트 블링크, 라이트랜스포밍</li><li class="sub">블래스터 - 익스플로젼 무브</li><li class="sub">배틀메이지 - 텔레포트 Ver.2</li><li class="sub">제논 - 에비에이션 리버티, 서든 프로펠, 퀵실버 소드 : 도약</li><li class="sub">메카닉 - 제트 부스터, 로켓 부스터</li><li class="sub">카이저 - 버티컬 커넥트</li><li class="sub">카데나 - 체인아츠:체이스</li><li class="sub">엔젤릭버스터 - 매지컬 리프트</li><li class="sub">제로 - 버스트 점프</li><li class="sub">키네시스 - 싸이킥 무브, 워프</li><li class="sub">아델 - 레비테이션, 페더</li><li class="sub">일리움 - 크리스탈 포탈</li><li class="sub">칼리 - 미라지 스텝</li><li class="sub">아크 - 인스팅트 리프</li><li class="sub">라라 - 폴짝, 발현 : 강줄기 흐르는 곳, 발현 : 바람 그네, 용맥의 자취</li><li class="sub">호영 - 초상비, 근두운, 파초풍 : 허/실, 멸화염 : 허/실, 멸화염 : 허/실 VI, 파초풍 : 허/실 VI</li></ul></li><li>일부 스킬의 이펙트가 어색하게 출력되는 현상이 수정됩니다. 수정되는 스킬은 아래와 같습니다.<ul class="desc sublist"><li class="sub">공통 - 창조의 아이온, 초월 : 불굴의 결의, 솔 헤카테 : 카론, 해방된 룬의 축복</li><li class="sub">모험가 전사 공통 - 블리츠 실드</li><li class="sub">데몬 공통 - 콜 마스테마, 콜 마스테마 VI</li><li class="sub">팔라딘 - 블레싱 아머</li><li class="sub">비숍 - 홀리 블러드</li><li class="sub">보우마스터 - 컨센트레이션</li><li class="sub">신궁 - 포커스 온, 스플릿 애로우</li><li class="sub">나이트로드 - 블리딩 톡신, 다크니스 슈리켄</li><li class="sub">섀도어 - 쉐도우 엣지</li><li class="sub">듀얼블레이드 - 히든 블레이드, 히든 블레이드 VI</li><li class="sub">윈드브레이커 - 윈드 월, 윈드 월 VI</li><li class="sub">아란 - 아드레날린 맥시멈, 아드레날린 맥시멈 VI</li><li class="sub">데몬 슬레이어 - 다크 리벤지, 메타모포시스-인핸스</li><li class="sub">카데나 - 웨폰 버라이어티 III, 웨폰 버라이어티 VI</li><li class="sub">엔젤릭버스터 - 소울 레조넌스</li><li class="sub">제로 - 타임 홀딩</li><li class="sub">일리움 - 프라이멀 프로텍션</li><li class="sub">렌 - 매화검 4초식 : 영인</li></ul></li><li>얼티밋 다크 사이트<ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li>솔 헤카테<ul class="desc sublist"><li class="sub">1단계 성장한 솔 헤카테의 스틱스 이펙트가 수정됩니다.</li><li class="sub">1단계 성장한 솔 헤카테의 순간 이동 이펙트가 수정됩니다.</li><li class="sub">솔 헤카테 : 에스텔 스킨 적용 시 스킬 아이콘이 어색한 위치에 출력되는 현상이 수정됩니다.</li></ul></li><li>이볼브 VI<ul class="desc sublist"><li class="sub">채널 이동 또는 사망 후 부활 시 가끔 불꽃의 궤적, 혹한의 궤적, 칠흑의 궤적 이펙트가 계속 출력되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-hero">
+<h2><img class="bav" data-av="hero" width="32" height="32" alt="">히어로<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">플래시 슬래시</b><ul class="desc sublist"><li class="sub">스킬 사용 시 가끔 클라이언트가 종료되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-paladin">
+<h2><img class="bav" data-av="paladin" width="32" height="32" alt="">팔라딘<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">블래스트</b><ul class="desc sublist"><li class="sub">스킬 이펙트 투명도가 중복으로 적용되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">생츄어리</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">블래스트 VI</b><ul class="desc sublist"><li class="sub">스킬 이펙트 투명도가 중복으로 적용되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-darkknight">
+<h2><img class="bav" data-av="darkknight" width="32" height="32" alt="">다크나이트<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">리인카네이션 액셉트</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">리인카네이션</b><ul class="desc sublist"><li class="sub">발동 직후 사망 시 가끔 부활할 수 없는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-archmage-fp">
+<h2><img class="bav" data-av="archmage-fp" width="32" height="32" alt="">아크메이지(불,독)<em>7</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">포이즌 플레어</b><ul class="desc sublist"><li class="sub">비활성화 시 다른 캐릭터에게 시전 이펙트가 출력되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">미스트 이럽션</b><ul class="desc sublist"><li class="sub">포이즌 미스트가 최대 폭발 개수보다 많을 때 미스트 이럽션을 사용할 수 없는 현상이 수정됩니다.</li><li class="sub">포이즌 미스트가 최대 폭발 개수보다 많을 때 먼저 생성된 포이즌 미스트부터 폭발하게 변경됩니다.</li></ul></li><li><b class="bt">파이어 오라</b><ul class="desc sublist"><li class="sub">제자리 사용 제한이 적용되어도 스킬이 해제되지 않게 변경됩니다.</li></ul></li><li><b class="bt">퓨리 오브 이프리트</b><ul class="desc sublist"><li class="sub">채널 이동 또는 사망 후 부활 시 가끔 스킬 이펙트가 계속 출력되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">미스트 이럽션 VI</b><ul class="desc sublist"><li class="sub">포이즌 미스트가 최대 폭발 개수보다 많을 때 미스트 이럽션을 사용할 수 없는 현상이 수정됩니다.</li><li class="sub">포이즌 미스트가 최대 폭발 개수보다 많을 때 먼저 생성된 포이즌 미스트부터 폭발하게 변경됩니다.</li></ul></li><li><b class="bt">파이어 오라 VI</b><ul class="desc sublist"><li class="sub">제자리 사용 제한이 적용되어도 스킬이 해제되지 않게 변경됩니다.</li></ul></li><li><b class="bt">포이즌 플레어 VI</b><ul class="desc sublist"><li class="sub">비활성화 시 다른 캐릭터에게 시전 이펙트가 출력되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-archmage-il">
+<h2><img class="bav" data-av="archmage-il" width="32" height="32" alt="">아크메이지(썬,콜)<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">썬더 볼트</b><ul class="desc sublist"><li class="sub">타격 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">엘퀴네스 VI</b><ul class="desc sublist"><li class="sub">시전 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-bishop">
+<h2><img class="bav" data-av="bishop" width="32" height="32" alt="">비숍<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">제네시스 VI</b><ul class="desc sublist"><li class="sub">시전 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-marksman">
+<h2><img class="bav" data-av="marksman" width="32" height="32" alt="">신궁<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">리트리트 샷</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-nightlord">
+<h2><img class="bav" data-av="nightlord" width="32" height="32" alt="">나이트로드<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">쉐도우 블링크</b><ul class="desc sublist"><li class="sub">돌진 도중 쉐도우 리프 사용 시 쉐도우 리프의 시전 이펙트가 출력되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-shadower">
+<h2><img class="bav" data-av="shadower" width="32" height="32" alt="">섀도어<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">소닉 블로우</b><ul class="desc sublist"><li class="sub">버프 아이콘이 어색하게 출력되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">무아지경</b><ul class="desc sublist"><li class="sub">암살 : 멸과 분쇄 : 멸이 가끔 최대 HP가 가장 높은 보스 몬스터가 아닌 적에게 상처 디버프를 적용하는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-dualblade">
+<h2><img class="bav" data-av="dualblade" width="32" height="32" alt="">듀얼블레이드<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">아수라</b><ul class="desc sublist"><li class="sub">사용 중 가끔 일부 스킬을 함께 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">아수라 VI</b><ul class="desc sublist"><li class="sub">사용 중 가끔 일부 스킬을 함께 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">야마즈 디크리</b><ul class="desc sublist"><li class="sub">맵 이동 직후 단죄 사용 시 일부 스킬 이펙트가 사라지지 않는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-viper">
+<h2><img class="bav" data-av="viper" width="32" height="32" alt="">바이퍼<em>5</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">어드밴스드 대쉬</b><ul class="desc sublist"><li class="sub">다른 스킬 시전 중 캐릭터 반대 방향으로 사용 시 시전 동작 종료 후 캐릭터의 방향이 전환되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">서펜트 스톤</b><ul class="desc sublist"><li class="sub">사망 후 부활 시 어썰트 상태가 해제되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">서펜트 스크류</b><ul class="desc sublist"><li class="sub">자동으로 다시 활성화될 경우 가끔 재사용 대기시간이 적용되지 않는 현상이 수정됩니다.</li></ul></li><li><b class="bt">피스트 인레이지 VI</b><ul class="desc sublist"><li class="sub">사망 후 부활 시 슈퍼 피스트 인레이지 버프가 해제되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">서펜트 스톤 VI</b><ul class="desc sublist"><li class="sub">사망 후 부활 시 어썰트 상태가 해제되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-captain">
+<h2><img class="bav" data-av="captain" width="32" height="32" alt="">캡틴<em>4</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">더블 배럴 샷</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">언위어링 넥타</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">파이어크래커</b><ul class="desc sublist"><li class="sub">스킬 효과음이 중복으로 출력되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">에어리얼 봄바드먼트</b><ul class="desc sublist"><li class="sub">알파 스트라이크 발동 시 가끔 클라이언트가 종료되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-cannoneer">
+<h2><img class="bav" data-av="cannoneer" width="32" height="32" alt="">캐논슈터<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">기간틱 백스텝</b><ul class="desc sublist"><li class="sub">캐논 드리프트 중 스킬이 사용되지 않는 현상이 수정됩니다.</li></ul></li><li><b class="bt">마그네틱 앵커</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-soulmaster">
+<h2><img class="bav" data-av="soulmaster" width="32" height="32" alt="">소울마스터<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">솔루나 슬래시</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li><li class="sub">일부 맵에서 사용 시 가끔 사용 불가 안내 문구가 출력되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">솔루나 슬래시 VI</b><ul class="desc sublist"><li class="sub">일부 맵에서 사용 시 가끔 사용 불가 안내 문구가 출력되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-flamewizard">
+<h2><img class="bav" data-av="flamewizard" width="32" height="32" alt="">플레임위자드<em>8</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">오비탈 플레임</b><ul class="desc sublist"><li class="sub">스킬 사용 중 가끔 엘리멘탈 쉬프트를 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">오비탈 플레임 II</b><ul class="desc sublist"><li class="sub">스킬 사용 중 가끔 엘리멘탈 쉬프트를 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">오비탈 플레임 III</b><ul class="desc sublist"><li class="sub">스킬 사용 중 가끔 엘리멘탈 쉬프트를 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">오비탈 플레임 IV</b><ul class="desc sublist"><li class="sub">스킬 사용 중 가끔 엘리멘탈 쉬프트를 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">카타클리즘</b><ul class="desc sublist"><li class="sub">스킬 사용 중 엘리멘탈 쉬프트를 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">인피니티 플레임 서클</b><ul class="desc sublist"><li class="sub">스킬 사용 중 파이어워크를 사용할 수 있는 현상이 수정됩니다.</li><li class="sub">시전 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">오비탈 플레임 VI</b><ul class="desc sublist"><li class="sub">스킬 사용 중 가끔 엘리멘탈 쉬프트를 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">블레이징 익스팅션 VI</b><ul class="desc sublist"><li class="sub">시전 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-windbreaker">
+<h2><img class="bav" data-av="windbreaker" width="32" height="32" alt="">윈드브레이커<em>6</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">윈드워크</b><ul class="desc sublist"><li class="sub">이동 스킬 사용이 불가능한 맵에서 사용 가능한 현상이 수정됩니다.</li></ul></li><li><b class="bt">천공의 노래</b><ul class="desc sublist"><li class="sub">전방으로 거스트 쉬프트 사용 후 천공의 노래 키다운 시 점프 키를 입력하면 키다운이 종료되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">하울링 게일</b><ul class="desc sublist"><li class="sub">윈드브레이커가 두 명 이상일 때 돌풍 재소환 시 가끔 다른 캐릭터의 돌풍의 위치가 어색하게 보이는 현상이 수정됩니다.</li></ul></li><li><b class="bt">아이들 윔</b><ul class="desc sublist"><li class="sub">스킬 시퀀스 사용 직후 아이들 윔을 사용할 수 없는 현상이 수정됩니다.</li></ul></li><li><b class="bt">볼텍스 스피어</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">천공의 노래 VI</b><ul class="desc sublist"><li class="sub">전방으로 거스트 쉬프트 사용 후 천공의 노래 VI 키다운 시 점프 키를 입력하면 키다운이 종료되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-nightwalker">
+<h2><img class="bav" data-av="nightwalker" width="32" height="32" alt="">나이트워커<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">래피드 스로우</b><ul class="desc sublist"><li class="sub">스킬 사용 중 엘리멘탈 쉬프트, 쉐도우 점프를 사용할 수 있는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-aran">
+<h2><img class="bav" data-av="aran" width="32" height="32" alt="">아란<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">일반</b><ul class="desc sublist"><li class="sub">유니온 레이드에서 공격대원으로 배치 시 공격하지 않는 현상이 수정됩니다.</li></ul></li><li><b class="bt">컴뱃 스탭</b><ul class="desc sublist"><li class="sub">다른 스킬 시전 중 스킬 키를 통해 캐릭터 반대 방향으로 사용할 수 없는 현상이 수정됩니다.</li><li class="sub">다른 스킬 시전 중 캐릭터 반대 방향으로 사용 시 시전 동작 종료 후 캐릭터의 방향이 전환되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">마하 언리시드</b><ul class="desc sublist"><li class="sub">맵 이동 시 가끔 파이널 비욘더 앱솔루트의 데미지가 적용되지 않는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-evan">
+<h2><img class="bav" data-av="evan" width="32" height="32" alt="">에반<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">서먼 오닉스 드래곤</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">스파이럴 오브 마나</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-luminous">
+<h2><img class="bav" data-av="luminous" width="32" height="32" alt="">루미너스<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">파워 오브 라이트</b><ul class="desc sublist"><li class="sub">암흑 상태 이상 저항 시 시스템 메시지가 반복적으로 출력되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">라이트랜스포밍</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-mercedes">
+<h2><img class="bav" data-av="mercedes" width="32" height="32" alt="">메르세데스<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">롤링 문썰트</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-phantom">
+<h2><img class="bav" data-av="phantom" width="32" height="32" alt="">팬텀<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">스틸 스킬</b><ul class="desc sublist"><li class="sub">훔친 다크 사이트의 사용 및 해제 간격이 비정상적으로 적용되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">마크 오브 팬텀</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li><li class="sub">순간 이동 없이 사용 시 가끔 스킬이 사용되지 않는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-eunwol">
+<h2><img class="bav" data-av="eunwol" width="32" height="32" alt="">은월<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">후방 이동</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">천귀야참</b><ul class="desc sublist"><li class="sub">연무장 &lt;잔영의 전당&gt;의 리플레이 키 입력 UI에서 진행 단계가 가끔 실제와 다르게 표시되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-blaster">
+<h2><img class="bav" data-av="blaster" width="32" height="32" alt="">블래스터<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">익스플로젼 무브</b><ul class="desc sublist"><li class="sub">일부 이동 스킬 사용이 불가능한 맵에서 위쪽 방향키와 함께 사용 가능한 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-battlemage">
+<h2><img class="bav" data-av="battlemage" width="32" height="32" alt="">배틀메이지<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">데스</b><ul class="desc sublist"><li class="sub">일부 컨텐츠에서 가끔 스킬이 해제되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">데스 VI</b><ul class="desc sublist"><li class="sub">일부 컨텐츠에서 가끔 스킬이 해제되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-wildhunter">
+<h2><img class="bav" data-av="wildhunter" width="32" height="32" alt="">와일드헌터<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">트랩 시더</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-xenon">
+<h2><img class="bav" data-av="xenon" width="32" height="32" alt="">제논<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">트라이앵글 포메이션</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">포톤 레이</b><ul class="desc sublist"><li class="sub">광자 캐논 발사 중 서든 프로펠을 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">네오테릭 트라이스</b><ul class="desc sublist"><li class="sub">사용과 동시에 사망 시 가끔 일부 스킬 이펙트가 사라지지 않는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-mechanic">
+<h2><img class="bav" data-av="mechanic" width="32" height="32" alt="">메카닉<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">로켓 부스터</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">디스토션 필드</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">인텐스 디스토션 필드</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-kaiser">
+<h2><img class="bav" data-av="kaiser" width="32" height="32" alt="">카이저<em>4</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">윌 오브 소드 : 차지</b><ul class="desc sublist"><li class="sub">거인의 비약으로 거대화된 상태에서 사용 가능한 현상이 수정됩니다.</li></ul></li><li><b class="bt">인퍼널 브레스</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">윌 오브 소드 : 스트라이크</b><ul class="desc sublist"><li class="sub">거인의 비약으로 거대화된 상태에서 사용 가능한 현상이 수정됩니다.</li></ul></li><li><b class="bt">윌 오브 소드 VI</b><ul class="desc sublist"><li class="sub">가끔 용의 표식이 여러 번 새겨지는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-cadena">
+<h2><img class="bav" data-av="cadena" width="32" height="32" alt="">카데나<em>4</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">에이전트 시프트</b><ul class="desc sublist"><li class="sub">공중에서 사용 시 가끔 점프 거리보다 멀리 이동하는 현상이 수정됩니다.</li></ul></li><li><b class="bt">서먼 커팅 시미터</b><ul class="desc sublist"><li class="sub">사용 중 체인아츠:체이스 사용 시 가끔 캐릭터가 맵 밖으로 이동하는 현상이 수정됩니다.</li></ul></li><li><b class="bt">서먼 커팅 시미터 VI</b><ul class="desc sublist"><li class="sub">사용 중 체인아츠:체이스 사용 시 가끔 캐릭터가 맵 밖으로 이동하는 현상이 수정됩니다.</li></ul></li><li><b class="bt">서먼 비팅 니들배트 VI</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-angelicbuster">
+<h2><img class="bav" data-av="angelicbuster" width="32" height="32" alt="">엔젤릭버스터<em>2</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">소울 레조넌스</b><ul class="desc sublist"><li class="sub">스킬 사용 중 매지컬 시프트를 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">에너지 버스트</b><ul class="desc sublist"><li class="sub">무적 효과 지속 중 버프 아이콘 우클릭을 통해 무적 효과를 해제할 수 있게 변경됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-zero">
+<h2><img class="bav" data-av="zero" width="32" height="32" alt="">제로<em>6</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">일반</b><ul class="desc sublist"><li class="sub">일부 맵 입장 시 알파와 베타의 타임 포스가 서로 바뀌는 현상이 수정됩니다.</li></ul></li><li><b class="bt">버스트 스텝</b><ul class="desc sublist"><li class="sub">다른 스킬 시전 중 캐릭터 반대 방향으로 사용 시 시전 동작 종료 후 캐릭터의 방향이 전환되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">어스 브레이크</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">어드밴스드 어스 브레이크</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">점핑 크래시 VI</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">어스 브레이크 VI</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-adele">
+<h2><img class="bav" data-av="adele" width="32" height="32" alt="">아델<em>1</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">다이크</b><ul class="desc sublist"><li class="sub">무적 지속 중 일부 보스 패턴에 밀리는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-illium">
+<h2><img class="bav" data-av="illium" width="32" height="32" alt="">일리움<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">커스 마크</b><ul class="desc sublist"><li class="sub">적이 여러 명일 때 가끔 추가 타격이 정상적으로 발동되지 않는 현상이 수정됩니다.</li></ul></li><li><b class="bt">마키나 VI</b><ul class="desc sublist"><li class="sub">소환수 이동 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">데우스 VI</b><ul class="desc sublist"><li class="sub">소환 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-khali">
+<h2><img class="bav" data-av="khali" width="32" height="32" alt="">칼리<em>4</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">보이드 러쉬</b><ul class="desc sublist"><li class="sub">사용 횟수가 남아 있는 상태에서 일부 보스 컨텐츠 전용 스킬 사용 시 연속 사용 가능한 상태가 해제되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">헥스 : 차크람 퓨리</b><ul class="desc sublist"><li class="sub">스킬 사용 중 스파크를 사용할 수 있는 현상이 수정됩니다.</li></ul></li><li><b class="bt">보이드 러쉬 VI</b><ul class="desc sublist"><li class="sub">사용 횟수가 남아 있는 상태에서 일부 보스 컨텐츠 전용 스킬 사용 시 연속 사용 가능한 상태가 해제되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">헥스 : 차크람 퓨리 VI</b><ul class="desc sublist"><li class="sub">스킬 사용 중 스파크를 사용할 수 있는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-ark">
+<h2><img class="bav" data-av="ark" width="32" height="32" alt="">아크<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">스펠 불릿</b><ul class="desc sublist"><li class="sub">보스 대기맵, 연무장의 &lt;연마의 전당&gt;, 안개 숲 수련장 입장 시 플레인 스펠, 스칼렛 스펠, 거스트 스펠, 어비스 스펠이 최대로 차지되게 변경됩니다.</li></ul></li><li><b class="bt">잊혀지지 않는 악몽 VI</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">잊혀지지 않는 흉몽 VI</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-ren">
+<h2><img class="bav" data-av="ren" width="32" height="32" alt="">렌<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">매화검 4초식 : 영인</b><ul class="desc sublist"><li class="sub">지속 중 귀가 어색하게 보이는 현상이 수정됩니다.</li></ul></li><li><b class="bt">망혼각성</b><ul class="desc sublist"><li class="sub">천아의 타격 이펙트가 수정됩니다.</li><li class="sub">스킬 종료 시 이펙트가 수정됩니다.</li></ul></li><li><b class="bt">창룡파천검 : 만참</b><ul class="desc sublist"><li class="sub">스킬 이펙트가 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-hoyoung">
+<h2><img class="bav" data-av="hoyoung" width="32" height="32" alt="">호영<em>7</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">파초풍 : 천</b><ul class="desc sublist"><li class="sub">전방 방향키와 함께 사용 시 가끔 스킬 키를 한 번 더 누르지 않아도 파초풍 : 실로 연계되는 현상이 수정됩니다.</li><li class="sub">커스텀 커맨드 사용 시 가끔 전방 방향키를 두 번 연타하지 않아도 파초풍 : 실로 연계되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">지진쇄 : 지</b><ul class="desc sublist"><li class="sub">좌우 방향키와 함께 사용 시 가끔 스킬 키를 한 번 더 누르지 않아도 지진쇄 : 실로 연계되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">멸화염 : 천</b><ul class="desc sublist"><li class="sub">위쪽 방향키와 함께 사용 시 가끔 스킬 키를 한 번 더 누르지 않아도 멸화염 : 실로 연계되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">멸화염 : 천 VI</b><ul class="desc sublist"><li class="sub">위쪽 방향키와 함께 사용 시 가끔 스킬 키를 한 번 더 누르지 않아도 멸화염 : 실 VI로 연계되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">지진쇄 : 지 VI</b><ul class="desc sublist"><li class="sub">좌우 방향키와 함께 사용 시 가끔 스킬 키를 한 번 더 누르지 않아도 지진쇄 : 실 VI로 연계되는 현상이 수정됩니다.</li></ul></li><li><b class="bt">금고봉 : 인 VI</b><ul class="desc sublist"><li class="sub">천지만물로 강화된 금고봉 : 인 VI의 스킬 이펙트가 수정됩니다.</li><li class="sub">천지만물로 강화된 금고봉 : 인 VI 시전 시 귀가 어색하게 보이는 현상이 수정됩니다.</li></ul></li><li><b class="bt">파초풍 : 천 VI</b><ul class="desc sublist"><li class="sub">전방 방향키와 함께 사용 시 가끔 스킬 키를 한 번 더 누르지 않아도 파초풍 : 실 VI로 연계되는 현상이 수정됩니다.</li><li class="sub">커스텀 커맨드 사용 시 가끔 전방 방향키를 두 번 연타하지 않아도 파초풍 : 실 VI로 연계되는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+<section class="bugjob" id="job-lethe">
+<h2><img class="bav" data-av="lethe" width="32" height="32" alt="">레테<em>3</em></h2>
+<article class="skill"><ul class="desc"><li><b class="bt">임프린트</b><ul class="desc sublist"><li class="sub">펠이 소환된 직후 일부 UI가 열리지 않는 현상이 수정됩니다.</li></ul></li><li><b class="bt">레비테이트</b><ul class="desc sublist"><li class="sub">스킬 반복 입력 옵션의 영향을 받지 않게 변경됩니다.</li></ul></li><li><b class="bt">임프린트 VI</b><ul class="desc sublist"><li class="sub">펠이 소환된 직후 일부 UI가 열리지 않는 현상이 수정됩니다.</li></ul></li></ul></article>
+</section>
+</main>
+<footer class="foot"><div class="wrap">
+<p>출처: <a href="https://maplestory.nexon.com/testworld/news/all/206" target="_blank" rel="noopener">테스트월드 클라이언트 1.2.208 릴리즈 (2026년 11월 12일)</a></p>
+</div></footer>
+</div></div>
+<script id="imgdata" type="application/json">[]</script>
+<script>
+(function () {
+  var d = JSON.parse(document.getElementById('imgdata').textContent);
+  document.querySelectorAll('img[data-img]').forEach(function (el) {
+    el.src = 'data:image/webp;base64,' + d[+el.dataset.img];
+  });
+})();
+</script>
+<script src="sidebar.js" defer></script>
+<script src="lightbox.js" defer></script>
+</body>
+</html>
