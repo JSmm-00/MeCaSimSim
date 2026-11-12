@@ -244,16 +244,3 @@ h1, h2, h3 { color: var(--ink); text-wrap: balance; letter-spacing: -.02em; }
 }
 @media (max-width: 420px) { .tabs { width: 100%; } .tabs [role=tab] { flex: 1; justify-content: center; padding-inline: 10px; } }
 @media (prefers-reduced-motion: reduce) { .side, .job, .common { transition: none; } }
-
-/* 큰 모니터(FHD 이상~4K)에서는 전체를 비례해서 키워 빈 공간을 줄임
-   zoom 안에서는 100vh도 같이 커지므로 --z 로 나눠서 뷰포트 높이에 맞춤 */
-@media (min-width: 1800px) {
-  html { zoom: 1.2; }
-  .side { height: calc(100vh / 1.2); }
-  .layout { min-height: calc(100vh / 1.2); }
-}
-@media (min-width: 2300px) {
-  html { zoom: 1.5; }
-  .side { height: calc(100vh / 1.5); }
-  .layout { min-height: calc(100vh / 1.5); }
-}
